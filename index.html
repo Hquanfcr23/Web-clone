@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+                <div class="header__header grid wide">
+                    <div class="header__header-logo">
+                        <a href="">KHOAI</a>
+                        <span>TV</span>
+                    </div>
+                    <div class="header__header-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="header__header-input" type="text" placeholder="Tìm kiếm">
+                    </div>
+                    <div class="header__header-cabinet">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Tủ phim
+                        <span>0</span>
+                    </div>
+                </div>
+                <div class="header__navbar">
+                    <ul class="header__navbar-wrapper">
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#">KHOAITV</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            THỂ LOẠI
+                            <i class="fa-solid fa-caret-down header__navbar-item__icon"></i>
+                            <div class="header__navbar-type">
+                                <div class="header__navbar-type__row">
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Chiến Tranh</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Cổ Trang</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Gia Đình</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-type__row">
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Hài Hước</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Hành Động</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Hình Sự</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-type__row">
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Võ Thuật</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Kinh Dị</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Tâm Lý</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-type__row">
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Viễn Tưởng</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Hoạt Hình</a>
+                                    </div>
+                                    <div class="header__navbar-type__item">
+                                        <a class="header__navbar-type__item-link" href="">Thần Thoại</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            QUỐC GIA
+                            <i class="fa-solid fa-caret-down header__navbar-item__icon"></i>
+                            <div class="header__navbar-country">
+                                <div class="header__navbar-country__row">
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Việt Nam</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Ấn Độ</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Hồng Kông</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-country__row">
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Nhật Bản</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Thái Lan</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Hàn Quốc</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-country__row">
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Trung Quốc</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Mỹ</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Singapore</a>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-country__row">
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Đài Loan</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Philippines</a>
+                                    </div>
+                                    <div class="header__navbar-country__item">
+                                        <a class="header__navbar-country__item-link" href="">Châu Âu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#content__series-wrapper">PHIM BỘ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#content__odd-wrapper">PHIM LẺ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#content__theater-wrapper">PHIM CHIẾU RẠP</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#content__update-wrapper">PHIM MỚI</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a class="header__navbar-item__link" href="#content__sidebar-trailer__wrapper">PHIM SẮP CHIẾU</a>
+                        </li>
+                    </ul>
+                </div>
+
+        </header>
+        <content class="content">
+          <div class="content__wrapper grid wide">
+            <!--nomination  --> <!-- update --> <!-- theater --> <!-- content-main -->
+             <div class="content__nominations-wrapper">
+                <h1 class="content__nominations-title">
+                    PHIM ĐỀ CỬ
+                </h1>
+                <div class="content__nominations  row">
+                
+                </div>
+            </div>
+
+            <div id="content__update-wrapper">
+                <h1 class="content__nominations-title">
+                    MỚI CẬP NHẬT
+                </h1>
+                <div class="content__update  row">
+                
+                </div>
+                <div class="content__nominations-more">
+                <a href="" class="content__nominations-more__link">
+                    Xem Thêm
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                </div>
+            </div>
+
+            <div id="content__theater-wrapper">
+                <h1 class="content__nominations-title">
+                    PHIM CHIẾU RẠP  
+                </h1>
+                <div class="content__theater  row">
+                
+                </div>
+                <div class="content__nominations-more">
+                <a href="" class="content__nominations-more__link">
+                    Xem Thêm
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+                </div>
+            </div>
+
+            <div class="content__main-wrapper col">
+                <div class="content__film-review none">
+                    
+                </div>
+                <!-- series -->
+                <div id="content__series-wrapper">
+                    <h1 class="content__series-title">
+                        PHIM BỘ MỚI
+                    </h1>
+                <div class="content__series row">                   
+                    
+                </div>
+                <div class="content__series-more">
+                    <a href="" class="content__series-more__link">
+                        Xem Thêm
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                </div>
+
+                <!-- odd -->
+                <div id="content__odd-wrapper">
+                    <h1 class="content__series-title">
+                        PHIM LẺ MỚI
+                    </h1>
+                <div class="content__odd row">                                   
+                </div>
+                <div class="content__series-more">
+                    <a href="" class="content__series-more__link">
+                        Xem Thêm
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                </div>
+
+                <!-- cartoon -->
+                <div class="content__cartoon-wrapper">
+                    <h1 class="content__series-title">
+                        PHIM HOẠT HÌNH
+                    </h1>
+                <div class="content__cartoon row">                                   
+                </div>
+                <div class="content__series-more">
+                    <a href="" class="content__series-more__link">
+                        Xem Thêm
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                </div>               
+            </div> 
+            <!-- content sidebar -->
+            <div class="content__sidebar col">
+                <div class="content__sidebar-header">
+                    <h1 class="content__sidebar-title">
+                        TOP
+                    </h1>
+                    <div class="content__sidebar-selection">
+                        <button class="content__sidebar-btn">Ngày</button>
+                        <button class="content__sidebar-btn">Tuần</button>
+                        <button class="content__sidebar-btn">Tháng</button>
+                        <button class="content__sidebar-btn">Tất cả</button>
+                    </div>
+                </div>
+
+                <!-- top -->
+                <div class="content__sidebar-top">                  
+                </div>
+
+                <!-- trailer -->
+                <div id="content__sidebar-trailer__wrapper">
+                    <h1 class="content__sidebar-trailer__heading">
+                        PHIM SẮP CHIẾU
+                    </h1>
+                    <div class="content__sidebar-trailer">      
+                                  
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content__footer">
+                <div class="content__footer-header">
+                    KhoaiTV | Phim hay HD | Xem phim nhanh | Phim VietSub Thuyết Minh
+                </div>
+                Như các bạn đã biết hiện nay có rất nhiều trang <strong>xem phim online</strong> cực hay mà mình tin là chưa có nhiều người biết tới. Có quá nhiều trang xem phim nhanh, phim mới, phim hay online trực tuyến miễn phí và cũng hỗ trợ xem phim <strong>Full HD</strong>. Tuy nhiên họ quá lạm dụng quảng cáo trong quá trình xem phim gây ức chế cho người xem. Đặc biệt khi bạn là mọt phim bộ một khi không cày thì thôi, đã cày là cày bằng hết tập dù là có phải thức nguyên đêm. Đã không xem thì không sao chứ một khi xem là rất ham, do đó mình cũng hạn chế xem phim trừ những phim quá hay. Cũng vì nguyên nhân đó mà mình hay sưu tầm những trang web xem phim tốt và bookmark chúng lại, khi nào rảnh rỗi sẽ mở xem. Nhưng dạo gần đây những trang web xem phim online bị chết link quá nhiều. Không chết link thì bị khóa, không khóa thì quảng cáo nhiều, không quảng cáo thì lại không cập nhật phim mới, <strong>phim hay</strong>, không thì lại phải đăng kí thành viên này nọ rất là phiền phức
+                <img src="https://khoaitv.net/wp-content/uploads/2022/04/khoaitv.jpg" alt="">
+                . Chính vì những lý do trên <strong>KhoaiTV</strong> ra đời nhằm đáp ứng được các yêu cầu thiết yếu của người dùng. Ưu điểm khi xem phim, phim hay, phim mới với <strong>khoaitv.net</strong></span>
+                <span>Ưu điểm khi xem phim tại Khoai TV</span>
+                <ul>
+                    <li>- Không bị giật, lag khi xem phim Online</li>
+                    <li>- Kho phim khổng lồ được nhiều thành viên chia sẻ và update liên tục</li>
+                    <li>- Không lo die link vì có rất nhiều link dự phòng</li>
+                    <li>- Chất lượng của nguồn <strong>phim online</strong> căng nét, chuẩn Full HD</li>
+                    <li>- Càng nhiều người xem thì tốc độ load càng nhanh hơn do có nhiều server dự phòng</li>
+                    <li>- Cách sắp xếp phim khoa học, dễ tìm kiếm, tự động chuyển tập</li>
+                    <li>- Review phim chính xác và đầy đủ nhất</li>
+                    <li>- Ít quảng cáo, hầu như là không có quảng cáo</li>
+                    <li>- Có chế độ lọc phim theo sắp xếp, định dạng, tình trạng, quốc gia, năm hay theo thể loại phim</li>
+                    <li>- Giao diện đẹp có thể thay đổi màu giao diện trang phim từ sáng đến tối để phù hợp với mắt bạn</li>
+                    <li>- Có tủ phim lưu lại những phim bạn muốn xem.</li>
+                </ul>
+                <span>KHOAITV - Xem phim Online HD hoàn toàn miễn phí</span>
+                <strong>KHOAITV.NET</strong>
+                 Tổng hợp những bộ phim Việt Sub, Thuyết minh, Lồng Tiếng hay và mới nhất, được cập nhật liên tục. Có đánh giá phim và lượt xem để bạn dễ dàng tham khảo ý kiến người coi trước để khỏi tốn thời gian tìm kiếm phim. Có phần bình luận dưới phim để bạn nêu cảm nghĩ hay đánh giá phim. Xem phim nhanh, phim hay miễn phí, 
+                <strong>phim mới</strong>
+                với khoaitv.net hiện là là trang web xem phim với số lượng truy cập khủng. Đây thực sự là trang phim hay, tuyệt vời dành cho các tín đồ mê film. Còn chần chờ gì nữa không nhanh tay bấm ngay khoaitv để giải tỏa căng thẳng, vui chơi giải trí
+            
+                <div class="content__footer-border">
+                    <button class="content__footer-btn">Rút gọn</button>
+                </div>
+            </div>
+          </div>
+        </content>
+        <footer class="footer">
+            <div class="footer__wrapper grid row">
+                <div class="footer__header col c-4">
+                    <div class="footer__header-logo">
+                        <a href="/xemphim.html">KHOAI</a>
+                        <span>TV</span>
+                    </div>
+                    <p>Phim Mới hay chất lượng cao miễn phí. Xem phim hd VietSub. Phim thuyết minh chất lượng HD. Phim bộ mới nhất, phim hành động hay nhất, phim tâm lý tình cảm hài hước hấp dẫn nhất..</p>
+                </div>
+                <div class="footer__tag col c-8">
+                    <div class="footer__tag-heading">
+                        Tag Cloud
+                    </div>
+                    <div class="footer__tag-span">
+                        <span>#AnimeHay</span>
+                        <span>#avengers</span> <span>#Batman</span> <span>#Bilutv</span> <span>#BiPhim</span> <span>#biệt đội siêu anh hùng</span> 
+                        <span>#BongNgoTV</span> <span>#châu tinh trì</span> <span>#cảnh sát</span> <span>#detective</span>
+                        <span>#detective conan movie</span> <span>#doraemon</span> <span>#FullPhim</span> <span>#ghibli</span> <span>#james bond</span>
+                        <span>#james bond 007</span> <span>#KhoaiTV</span> <span>#kinh điển</span> <span>#love</span> <span>#lý liên kiệt</span> <span>#ma quái</span> <span>#marvel</span> <span>#MotPhim</span> <span>#Netflix</span> <span>#Người Trong Giang Hồ</span>
+                        <span>#phim3s</span> <span>#Phim14</span> <span>#PhimBatHu</span> <span>#PhimMedia</span> <span>#phimmoi</span> <span>#phimmoizz</span> <span>#PhimNhanh</span> <span>#sieu anh hung</span> <span>#siêu năng lực</span> <span>#star trek</span> <span>#studio ghibli</span>
+                        <span>#The Movie</span> <span>#thành long</span> <span>#tinh yeu</span><span># top 250 imdb</span> <span>#TrangPhim</span> <span>#TVHay</span> <span>#VuiGhe</span> <span>#VuViphim</span> <span>#XemPhimSo</span> <span>#YeuPhimMoi</span> <span>#zombie</span>
+                        <span>#đang cập nhật</span> <span>#điệp viên</span> <span>#điệp viên 007</span>
+                   </div>
+               </div>
+               <div class="footer__end col c-12">
+                <p>Copyright 2022 © <strong>KhoaiTV.Net</strong></p>
+                <p>Phim hay HD | Xem phim nhanh | Phim VietSub Thuyết Minh</p>
+               </div>
+        </footer>
+    </div>
+</body>
+<script type="module" src="app.js">
+    
+</script>
+</html>
